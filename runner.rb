@@ -14,7 +14,19 @@ require_relative 'sudoku'
 
 board_string = File.readlines('sudoku_puzzles.txt').first.chomp
 
-solved_board = solve(board_string)
+board_string = board_string.gsub('-','0').split('').map {|elm| elm.to_i}
+
+# board_string.each_slice(9) do |elm|
+#   p elm
+# end
+#
+# p "_________________________"
+#
+ solved_board = solve(board_string)
+# solved_board[0].each_slice(9) do |elm|
+#   p elm
+# end
+
 if solved?(solved_board)
   puts "The board was solved!"
   puts pretty_board(solved_board)
