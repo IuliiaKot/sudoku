@@ -13,7 +13,7 @@ By the end of this challenge we'll have a fully functioning Sudoku solver that r
  * Five puzzles can be solved with **basic logic**.
  * Five require slightly more **advanced logic**.
  * Five require **educated guessing**.
- 
+
 A complete solution to this challenge will solve all 15 puzzles.
 
 ### Restrictions
@@ -78,3 +78,5 @@ Puzzles 11 - 15 can be solved by making informed guesses about the values of uns
 
 ## Conclusion
 Writing a Sudoku solver presents a lot of problems:  identifying the logic involved in the game itself, translating that logic to code, manipulating data structures, etc.  It provides a nice comprehensive challenge, summing the skills that we've developed to this point at Dev Bootcamp.
+=======
+# sudoku
